@@ -23,12 +23,11 @@ https://app.powerbi.com/links/Dg3d1IjiCS?ctid=bc9cd8e7-1801-4d9b-9c0d-c39cb60a7a
 
 ## Tech Stack
 
-Python
-SQL
-MySQL
-SQLAlchemy
-Power BI
-
+- Python
+- SQL
+- MySQL
+- SQLAlchemy
+- Power BI
 ---
 
 ## Project Workflow
