@@ -1,9 +1,10 @@
 # E-Commerce Sales Analytics
 
-End-to-end data analytics project analyzing an e-commerce dataset using **Python, SQL, and Power BI**.
+End-to-end data analytics project analyzing an e-commerce dataset using Python, SQL, and Power BI.
 
-The project demonstrates a full analytics workflow from **raw data ingestion to an interactive dashboard**.
+The project demonstrates a full analytics workflow from raw data ingestion to an interactive dashboard.
 
+The SQL transformations follow a medallion-style architecture (staging → silver → gold) to organize data processing layers and separate raw, cleaned, and analytical datasets.
 ---
 
 ## Dashboard Preview
@@ -22,10 +23,11 @@ https://app.powerbi.com/links/Dg3d1IjiCS?ctid=bc9cd8e7-1801-4d9b-9c0d-c39cb60a7a
 
 ## Tech Stack
 
-* Python
-* SQLAlchemy
-* SQL
-* Power BI
+Python
+SQL
+MySQL
+SQLAlchemy
+Power BI
 
 ---
 
