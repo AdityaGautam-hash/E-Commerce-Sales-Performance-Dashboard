@@ -8,7 +8,7 @@ The project demonstrates a full analytics workflow from **raw data ingestion to 
 
 ## Dashboard Preview
 
-![Dashboard](dashbaord_preview/E-Commerce%20Sales%20Analytics%20Dashboard.png)
+![Dashboard](ecommerce-analytics-project/dashboard_preview/E-Commerce%20Sales%20Analytics%20Dashboard.png)
 
 ---
 
