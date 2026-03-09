@@ -3,11 +3,11 @@ from sqlalchemy import create_engine
 
 # MySQL connection
 engine = create_engine(
-    "mysql+pymysql://root:Aditya1!@localhost:3306/ecommerce_analytics"
+    mysql+pymysql://username:password@localhost:3306/ecommerce_analytics
 )
 
 # Base path where CSVs are stored
-BASE_PATH = r"C:\Users\Aditya Gautam\Desktop\ecommerce-analytics-project\data\raw"
+BASE_PATH = "data/raw"    
 
 # CSV → staging table mapping
 files = {
@@ -27,5 +27,6 @@ for file, table in files.items():
     df = pd.read_csv(f"{BASE_PATH}\\{file}")
     df.to_sql(table, con=engine, if_exists="append", index=False)
     print(f"✅ {table} loaded ({len(df)} rows)")
+
 
 print("🎉 ALL STAGING TABLES LOADED SUCCESSFULLY")
