@@ -2,9 +2,11 @@
 
 End-to-end data analytics project analyzing an e-commerce dataset using Python, SQL, and Power BI.
 
+The project demonstrates a complete analytics workflow including data ingestion, transformation, dimensional modeling, and business intelligence visualization.
+
 The project demonstrates a full analytics workflow from raw data ingestion to an interactive dashboard.
 
-The SQL transformations follow a medallion-style architecture (staging → silver → gold) to organize data processing layers and separate raw, cleaned, and analytical datasets.
+The SQL transformations follow a **medallion-style architecture** (staging → silver → gold)
 ---
 
 ## Dashboard Preview
@@ -59,8 +61,9 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 ## Repository Structure
 
 ```
-python/        → data ingestion scripts  
-sql/           → data transformation queries  
-images/        → dashboard screenshots  
-dashboard/     → Power BI dashboard link  
+ecommerce-analytics-project/
+│
+├── Python/                → data ingestion scripts
+├── SQL/                   → data transformation queries
+└── dashboard_preview/     → dashboard screenshot
 ```
